@@ -1,0 +1,327 @@
+[
+  {
+    "career_id": "software_developer",
+    "onet_soc_code": "15-1252.00",
+    "title_en": "Software Developer",
+    "title_th": "นักพัฒนาซอฟต์แวร์",
+    "description_th": "ออกแบบ พัฒนา และดูแลรักษาซอฟต์แวร์และแอปพลิเคชันตามความต้องการของผู้ใช้และองค์กร วิเคราะห์ความต้องการ เขียนโค้ด ทดสอบ และแก้ไขข้อบกพร่อง รวมถึงร่วมมือกับทีมออกแบบและทีมธุรกิจ",
+    "description_en": "Designs, develops, and maintains software and applications according to user and organizational requirements. Analyzes requirements, writes code, tests, and debugs, while collaborating with design and business teams.",
+    "work_context_th": "ทำงานในบริษัทซอฟต์แวร์ สตาร์ทอัพ หน่วยงานรัฐบาล หรือในฝ่าย IT ขององค์กรขนาดใหญ่ มีทั้งการทำงานแบบ on-site และ remote โดยส่วนใหญ่ทำงานเป็นทีม ใช้เครื่องมือเช่น Git, JIRA, Slack",
+    "required_skills": [
+      {
+        "skill_cluster": "programming",
+        "skill_name_th": "การเขียนโปรแกรม",
+        "skill_name_en": "Programming",
+        "importance_score": 98,
+        "level_required": "advanced",
+        "specific_skills": ["Python", "JavaScript/TypeScript", "Java", "Go", "SQL"],
+        "description_th": "เขียนโปรแกรมด้วยภาษาคอมพิวเตอร์อย่างน้อย 2-3 ภาษาได้อย่างคล่องแคล่ว ออกแบบโครงสร้างโค้ดที่สะอาดและบำรุงรักษาได้"
+      },
+      {
+        "skill_cluster": "software_engineering",
+        "skill_name_th": "วิศวกรรมซอฟต์แวร์",
+        "skill_name_en": "Software Engineering",
+        "importance_score": 95,
+        "level_required": "advanced",
+        "specific_skills": ["Agile/Scrum", "Git", "CI/CD", "Code Review", "System Design"],
+        "description_th": "เข้าใจและใช้กระบวนการพัฒนาซอฟต์แวร์อย่างเป็นระบบ ตั้งแต่การวิเคราะห์ความต้องการจนถึงการ deploy"
+      },
+      {
+        "skill_cluster": "algorithms_data_structures",
+        "skill_name_th": "อัลกอริทึมและโครงสร้างข้อมูล",
+        "skill_name_en": "Algorithms and Data Structures",
+        "importance_score": 85,
+        "level_required": "intermediate",
+        "specific_skills": ["Array/Linked List", "Tree/Graph", "Sorting/Searching", "Dynamic Programming"],
+        "description_th": "เลือกและประยุกต์ใช้โครงสร้างข้อมูลและอัลกอริทึมที่เหมาะสมกับปัญหาได้"
+      },
+      {
+        "skill_cluster": "testing_qa",
+        "skill_name_th": "การทดสอบซอฟต์แวร์",
+        "skill_name_en": "Software Testing and QA",
+        "importance_score": 80,
+        "level_required": "intermediate",
+        "specific_skills": ["Unit Testing", "Integration Testing", "TDD", "Jest", "pytest"],
+        "description_th": "เขียนและบำรุงรักษา test suite รู้จักเทคนิคการทดสอบหลากหลายรูปแบบ"
+      },
+      {
+        "skill_cluster": "communication",
+        "skill_name_th": "การสื่อสาร",
+        "skill_name_en": "Communication",
+        "importance_score": 75,
+        "level_required": "intermediate",
+        "specific_skills": ["Technical Documentation", "Code Review Feedback", "Stakeholder Communication"],
+        "description_th": "สื่อสารแนวคิดทางเทคนิคกับทีมและผู้มีส่วนได้ส่วนเสียได้ชัดเจน"
+      }
+    ],
+    "salary_range_thb": {
+      "entry_level": {"min": 25000, "max": 45000, "description": "0-2 ปีประสบการณ์"},
+      "mid_level": {"min": 45000, "max": 85000, "description": "3-5 ปีประสบการณ์"},
+      "senior_level": {"min": 85000, "max": 180000, "description": "5+ ปีประสบการณ์"}
+    },
+    "job_market_outlook_th": "ความต้องการสูงมาก คาดเติบโต 25% ในอีก 5 ปี โดยเฉพาะในกลุ่ม FinTech, E-commerce และ Health Tech",
+    "top_employers_th": ["SCB Tech", "Agoda", "Grab", "Lazada", "True Digital Group", "KBTG", "Line"],
+    "related_programs": ["CPE", "CS", "SKE"],
+    "first_job_title_examples_th": ["Junior Software Engineer", "Junior Developer", "Associate Software Engineer"]
+  },
+  {
+    "career_id": "data_engineer",
+    "onet_soc_code": "15-1243.01",
+    "title_en": "Data Engineer",
+    "title_th": "วิศวกรข้อมูล",
+    "description_th": "ออกแบบ สร้าง และดูแลรักษา Data Pipeline และโครงสร้างพื้นฐานข้อมูลขนาดใหญ่ เพื่อให้ Data Scientist และ Business Analyst สามารถเข้าถึงและวิเคราะห์ข้อมูลได้อย่างมีประสิทธิภาพ รวมถึงรับผิดชอบคุณภาพและความถูกต้องของข้อมูล",
+    "description_en": "Designs, builds, and maintains data pipelines and large-scale data infrastructure to enable Data Scientists and Business Analysts to access and analyze data efficiently, while ensuring data quality and accuracy.",
+    "work_context_th": "ทำงานในฝ่าย Data/Analytics ขององค์กร บริษัท Consulting หรือ Cloud Provider ทำงานใกล้ชิดกับ Data Scientist, BA และ Software Engineer",
+    "required_skills": [
+      {
+        "skill_cluster": "data_engineering",
+        "skill_name_th": "วิศวกรรมข้อมูล",
+        "skill_name_en": "Data Engineering",
+        "importance_score": 99,
+        "level_required": "advanced",
+        "specific_skills": ["Apache Spark", "Apache Kafka", "Airflow", "dbt", "ETL/ELT"],
+        "description_th": "ออกแบบและพัฒนา Data Pipeline ที่รองรับข้อมูลปริมาณมาก มีเสถียรภาพ และบำรุงรักษาได้"
+      },
+      {
+        "skill_cluster": "database_management",
+        "skill_name_th": "การจัดการฐานข้อมูล",
+        "skill_name_en": "Database Management",
+        "importance_score": 96,
+        "level_required": "advanced",
+        "specific_skills": ["PostgreSQL", "BigQuery", "Snowflake", "MongoDB", "Redis", "SQL"],
+        "description_th": "ออกแบบ Schema ได้อย่างมีประสิทธิภาพ เขียน Query ที่ซับซ้อนได้ เข้าใจการ Optimization"
+      },
+      {
+        "skill_cluster": "programming",
+        "skill_name_th": "การเขียนโปรแกรม",
+        "skill_name_en": "Programming",
+        "importance_score": 90,
+        "level_required": "advanced",
+        "specific_skills": ["Python", "SQL", "Scala", "Shell Scripting"],
+        "description_th": "เขียน Python สำหรับ Data Processing ได้อย่างคล่องแคล่ว รู้จัก libraries เช่น Pandas, PySpark"
+      },
+      {
+        "skill_cluster": "systems_design",
+        "skill_name_th": "การออกแบบระบบ",
+        "skill_name_en": "Systems Design",
+        "importance_score": 85,
+        "level_required": "intermediate",
+        "specific_skills": ["Data Architecture", "Data Modeling", "Data Warehouse Design", "Cloud Architecture"],
+        "description_th": "ออกแบบสถาปัตยกรรมข้อมูลทั้งองค์กรได้ เลือก Technology Stack ที่เหมาะสม"
+      },
+      {
+        "skill_cluster": "machine_learning",
+        "skill_name_th": "การเรียนรู้ของเครื่อง",
+        "skill_name_en": "Machine Learning",
+        "importance_score": 65,
+        "level_required": "basic",
+        "specific_skills": ["Feature Engineering", "Model Deployment", "MLflow", "Data Labeling"],
+        "description_th": "เข้าใจ ML Workflow พอที่จะสร้าง Pipeline รองรับ Model Training และ Deployment"
+      }
+    ],
+    "salary_range_thb": {
+      "entry_level": {"min": 30000, "max": 55000, "description": "0-2 ปีประสบการณ์"},
+      "mid_level": {"min": 55000, "max": 100000, "description": "3-5 ปีประสบการณ์"},
+      "senior_level": {"min": 100000, "max": 200000, "description": "5+ ปีประสบการณ์"}
+    },
+    "job_market_outlook_th": "ความต้องการสูงมาก ขาดแคลนในตลาด คาดเติบโต 35% ในอีก 5 ปี ทุกอุตสาหกรรมต้องการ",
+    "top_employers_th": ["SCB Tech", "KBTG", "Lazada", "Agoda", "PTT Digital", "Siam Commercial Bank", "Central Tech"],
+    "related_programs": ["CPE", "CS"],
+    "first_job_title_examples_th": ["Junior Data Engineer", "Data Engineer Associate", "ETL Developer"]
+  },
+  {
+    "career_id": "ai_ml_engineer",
+    "onet_soc_code": "15-2051.02",
+    "title_en": "AI/ML Engineer",
+    "title_th": "วิศวกรปัญญาประดิษฐ์และการเรียนรู้ของเครื่อง",
+    "description_th": "วิจัย ออกแบบ และพัฒนาโมเดลปัญญาประดิษฐ์และการเรียนรู้ของเครื่อง ตั้งแต่การเตรียมข้อมูล การเทรนโมเดล การประเมินผล จนถึงการ deploy โมเดลสู่ Production สร้างระบบ AI ที่แก้ปัญหาทางธุรกิจได้จริง",
+    "description_en": "Researches, designs, and develops AI and machine learning models from data preparation, model training, and evaluation to deploying models to production, creating AI systems that solve real business problems.",
+    "work_context_th": "ทำงานในทีม AI/Data Science ขององค์กร Tech Company หรือ Research Lab ทำงานใกล้ชิดกับ Data Engineer และ Software Engineer ในการนำโมเดล AI ไปใช้งานจริง",
+    "required_skills": [
+      {
+        "skill_cluster": "machine_learning",
+        "skill_name_th": "การเรียนรู้ของเครื่องและ AI",
+        "skill_name_en": "Machine Learning and AI",
+        "importance_score": 99,
+        "level_required": "advanced",
+        "specific_skills": ["Deep Learning", "NLP", "Computer Vision", "Reinforcement Learning", "LLM Fine-tuning", "RAG"],
+        "description_th": "เข้าใจทฤษฎีและประยุกต์ใช้ ML algorithms ได้หลากหลาย สามารถเลือก approach ที่เหมาะสมกับปัญหา"
+      },
+      {
+        "skill_cluster": "mathematics_computation",
+        "skill_name_th": "คณิตศาสตร์สำหรับ AI",
+        "skill_name_en": "Mathematics for AI",
+        "importance_score": 92,
+        "level_required": "advanced",
+        "specific_skills": ["Linear Algebra", "Probability & Statistics", "Calculus", "Optimization"],
+        "description_th": "เข้าใจรากฐานทางคณิตศาสตร์ของ ML algorithms สามารถอ่านและเข้าใจ research paper ได้"
+      },
+      {
+        "skill_cluster": "programming",
+        "skill_name_th": "การเขียนโปรแกรมสำหรับ AI",
+        "skill_name_en": "AI Programming",
+        "importance_score": 95,
+        "level_required": "advanced",
+        "specific_skills": ["Python", "PyTorch", "TensorFlow", "HuggingFace", "LangChain", "scikit-learn"],
+        "description_th": "เขียน Python สำหรับ ML ได้อย่างเชี่ยวชาญ ใช้ frameworks หลักของวงการได้"
+      },
+      {
+        "skill_cluster": "data_engineering",
+        "skill_name_th": "การเตรียมและจัดการข้อมูล",
+        "skill_name_en": "Data Preparation and Management",
+        "importance_score": 88,
+        "level_required": "intermediate",
+        "specific_skills": ["Data Cleaning", "Feature Engineering", "Data Augmentation", "Pandas", "NumPy"],
+        "description_th": "เตรียมข้อมูลสำหรับ Training ได้อย่างมีประสิทธิภาพ เข้าใจผลกระทบของคุณภาพข้อมูลต่อโมเดล"
+      },
+      {
+        "skill_cluster": "research_skills",
+        "skill_name_th": "ทักษะการวิจัย",
+        "skill_name_en": "Research Skills",
+        "importance_score": 80,
+        "level_required": "intermediate",
+        "specific_skills": ["Reading Research Papers", "Experiment Design", "Hypothesis Testing", "Literature Review"],
+        "description_th": "ติดตามงานวิจัยล่าสุด อ่านและนำ paper มาประยุกต์ใช้ได้ ออกแบบการทดลองได้อย่างเป็นระบบ"
+      }
+    ],
+    "salary_range_thb": {
+      "entry_level": {"min": 35000, "max": 65000, "description": "0-2 ปีประสบการณ์"},
+      "mid_level": {"min": 65000, "max": 130000, "description": "3-5 ปีประสบการณ์"},
+      "senior_level": {"min": 130000, "max": 280000, "description": "5+ ปีประสบการณ์"}
+    },
+    "job_market_outlook_th": "ความต้องการสูงมากและยังขาดแคลนอย่างมากในตลาดไทย คาดเติบโตมากกว่า 40% ในอีก 5 ปี",
+    "top_employers_th": ["SCB Tech", "KBTG", "True Digital Group", "CP Group Tech", "BAAC", "Siriraj Hospital", "startups"],
+    "related_programs": ["CPE", "CS"],
+    "first_job_title_examples_th": ["Junior ML Engineer", "AI Engineer Associate", "Research Engineer"]
+  },
+  {
+    "career_id": "ux_designer",
+    "onet_soc_code": "15-1255.01",
+    "title_en": "UX/UI Designer",
+    "title_th": "นักออกแบบ UX/UI",
+    "description_th": "วิจัยและออกแบบประสบการณ์ผู้ใช้สำหรับผลิตภัณฑ์ดิจิทัล ทำความเข้าใจความต้องการของผู้ใช้ผ่าน User Research สร้าง Wireframe, Prototype และ Design System ทดสอบความสามารถในการใช้งาน และทำงานร่วมกับทีมพัฒนาเพื่อส่งมอบผลิตภัณฑ์ที่ตอบโจทย์ผู้ใช้จริง",
+    "description_en": "Researches and designs user experiences for digital products, understanding user needs through User Research, creating Wireframes, Prototypes and Design Systems, testing usability, and collaborating with development teams to deliver products that truly meet user needs.",
+    "work_context_th": "ทำงานในทีม Product/Design ของบริษัท Tech, Agency Design หรือ In-house Design Team ทำงานใกล้ชิดกับ Product Manager และ Developer",
+    "required_skills": [
+      {
+        "skill_cluster": "ux_design",
+        "skill_name_th": "การออกแบบ UX/UI",
+        "skill_name_en": "UX/UI Design",
+        "importance_score": 99,
+        "level_required": "advanced",
+        "specific_skills": ["Figma", "User Research", "Wireframing", "Prototyping", "Design System", "Usability Testing"],
+        "description_th": "ออกแบบ UI ได้สวยงามและใช้งานง่าย เข้าใจ Design Principles เช่น Gestalt, Color Theory, Typography"
+      },
+      {
+        "skill_cluster": "critical_thinking",
+        "skill_name_th": "การคิดวิเคราะห์และแก้ปัญหา",
+        "skill_name_en": "Critical Thinking and Problem Solving",
+        "importance_score": 90,
+        "level_required": "advanced",
+        "specific_skills": ["Design Thinking", "Problem Framing", "Journey Mapping", "Root Cause Analysis"],
+        "description_th": "วิเคราะห์ปัญหาของผู้ใช้ได้อย่างลึกซึ้ง ตั้งสมมติฐานและทดสอบได้อย่างเป็นระบบ"
+      },
+      {
+        "skill_cluster": "communication",
+        "skill_name_th": "การสื่อสารและการนำเสนอ",
+        "skill_name_en": "Communication and Presentation",
+        "importance_score": 88,
+        "level_required": "advanced",
+        "specific_skills": ["Presenting Designs", "Storytelling", "Writing UX Copy", "Facilitating Workshops"],
+        "description_th": "นำเสนอ Design Decision ให้ Stakeholder เข้าใจและเห็นด้วยได้ อธิบายเหตุผลเบื้องหลังการออกแบบได้"
+      },
+      {
+        "skill_cluster": "research_skills",
+        "skill_name_th": "การวิจัยผู้ใช้",
+        "skill_name_en": "User Research",
+        "importance_score": 85,
+        "level_required": "intermediate",
+        "specific_skills": ["Interviews", "Surveys", "Usability Testing", "A/B Testing", "Analytics Interpretation"],
+        "description_th": "ออกแบบและดำเนินการ User Research ได้หลายรูปแบบ วิเคราะห์ข้อมูลเชิงคุณภาพและเชิงปริมาณได้"
+      },
+      {
+        "skill_cluster": "software_engineering",
+        "skill_name_th": "ความรู้พื้นฐานด้านการพัฒนา",
+        "skill_name_en": "Basic Development Knowledge",
+        "importance_score": 60,
+        "level_required": "basic",
+        "specific_skills": ["HTML/CSS basics", "Understanding of Frontend Constraints", "Handoff to Developers"],
+        "description_th": "เข้าใจข้อจำกัดทางเทคนิคของ Frontend พอที่จะ Design ได้จริงในการ Implement"
+      }
+    ],
+    "salary_range_thb": {
+      "entry_level": {"min": 22000, "max": 40000, "description": "0-2 ปีประสบการณ์"},
+      "mid_level": {"min": 40000, "max": 75000, "description": "3-5 ปีประสบการณ์"},
+      "senior_level": {"min": 75000, "max": 150000, "description": "5+ ปีประสบการณ์"}
+    },
+    "job_market_outlook_th": "ความต้องการสูงขึ้นเรื่อยๆ บริษัทไทยให้ความสำคัญกับ UX มากขึ้น คาดเติบโต 20% ในอีก 5 ปี",
+    "top_employers_th": ["Agoda", "Grab", "Lazada", "dtac", "AIS", "SCB", "design agencies"],
+    "related_programs": ["CS", "SKE"],
+    "first_job_title_examples_th": ["Junior UX Designer", "UI/UX Designer", "Product Designer Associate"]
+  },
+  {
+    "career_id": "systems_analyst",
+    "onet_soc_code": "15-1211.00",
+    "title_en": "Systems Analyst",
+    "title_th": "นักวิเคราะห์ระบบ",
+    "description_th": "วิเคราะห์ความต้องการทางธุรกิจและแปลงเป็นข้อกำหนดระบบสารสนเทศ ทำหน้าที่เป็น Bridge ระหว่างฝ่ายธุรกิจและทีมพัฒนา ออกแบบกระบวนการทำงานใหม่ ประเมินระบบที่มีอยู่ และแนะนำโซลูชันเทคโนโลยีที่เหมาะสม",
+    "description_en": "Analyzes business requirements and translates them into information system specifications, acting as a bridge between business departments and development teams, designing new workflows, evaluating existing systems, and recommending appropriate technology solutions.",
+    "work_context_th": "ทำงานในฝ่าย IT ขององค์กรขนาดใหญ่ บริษัท Consulting หรือบริษัทรับ Outsource ทำงานร่วมกับทั้ง Business User และ Developer",
+    "required_skills": [
+      {
+        "skill_cluster": "systems_design",
+        "skill_name_th": "การวิเคราะห์และออกแบบระบบ",
+        "skill_name_en": "Systems Analysis and Design",
+        "importance_score": 98,
+        "level_required": "advanced",
+        "specific_skills": ["Requirements Engineering", "UML", "Business Process Modeling", "System Architecture", "BPMN"],
+        "description_th": "วิเคราะห์และบันทึกความต้องการได้อย่างครบถ้วน ออกแบบระบบที่ตอบโจทย์ทางธุรกิจได้"
+      },
+      {
+        "skill_cluster": "critical_thinking",
+        "skill_name_th": "การคิดวิเคราะห์",
+        "skill_name_en": "Critical Thinking",
+        "importance_score": 92,
+        "level_required": "advanced",
+        "specific_skills": ["Problem Analysis", "Root Cause Analysis", "Feasibility Study", "Risk Assessment"],
+        "description_th": "วิเคราะห์ปัญหาได้อย่างลึกซึ้ง ประเมินทางเลือกและนำเสนอโซลูชันที่คุ้มค่าได้"
+      },
+      {
+        "skill_cluster": "communication",
+        "skill_name_th": "การสื่อสารกับผู้มีส่วนได้ส่วนเสีย",
+        "skill_name_en": "Stakeholder Communication",
+        "importance_score": 95,
+        "level_required": "advanced",
+        "specific_skills": ["Technical Writing", "Meeting Facilitation", "Presentation", "Negotiation", "Documentation"],
+        "description_th": "สื่อสารกับทั้ง Technical Team และ Business Executive ได้อย่างมีประสิทธิภาพ"
+      },
+      {
+        "skill_cluster": "database_management",
+        "skill_name_th": "ความรู้ด้านฐานข้อมูล",
+        "skill_name_en": "Database Knowledge",
+        "importance_score": 78,
+        "level_required": "intermediate",
+        "specific_skills": ["SQL", "Data Modeling", "ERD", "Database Design Concepts"],
+        "description_th": "ออกแบบ Data Model ได้ เขียน SQL สำหรับการวิเคราะห์ข้อมูลพื้นฐานได้"
+      },
+      {
+        "skill_cluster": "project_management",
+        "skill_name_th": "การบริหารโครงการ",
+        "skill_name_en": "Project Management",
+        "importance_score": 75,
+        "level_required": "intermediate",
+        "specific_skills": ["Project Planning", "Scope Management", "Stakeholder Management", "JIRA", "MS Project"],
+        "description_th": "บริหารจัดการโครงการขนาดกลางได้ ติดตามความก้าวหน้าและรายงานได้"
+      }
+    ],
+    "salary_range_thb": {
+      "entry_level": {"min": 23000, "max": 40000, "description": "0-2 ปีประสบการณ์"},
+      "mid_level": {"min": 40000, "max": 75000, "description": "3-5 ปีประสบการณ์"},
+      "senior_level": {"min": 75000, "max": 140000, "description": "5+ ปีประสบการณ์"}
+    },
+    "job_market_outlook_th": "ความต้องการมั่นคง โดยเฉพาะในธนาคาร ประกันภัย และองค์กรที่กำลัง Digital Transformation คาดเติบโต 15% ในอีก 5 ปี",
+    "top_employers_th": ["SCB", "Kasikorn Bank", "AIA", "CP Group", "PTT", "True", "Accenture Thailand"],
+    "related_programs": ["CPE", "CS", "SKE"],
+    "first_job_title_examples_th": ["Junior Systems Analyst", "Business Analyst Associate", "IT Analyst"]
+  }
+]

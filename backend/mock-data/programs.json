@@ -1,0 +1,279 @@
+[
+  {
+    "program_id": "CPE",
+    "program_name_th": "วิศวกรรมคอมพิวเตอร์",
+    "program_name_en": "Computer Engineering",
+    "degree": "วิศวกรรมศาสตรบัณฑิต",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "faculty_en": "Faculty of Engineering",
+    "university": "มหาวิทยาลัยเกษตรศาสตร์",
+    "duration_years": 4,
+    "language": "ภาษาไทย",
+    "academic_year": "2566",
+    "program_description_th": "หลักสูตรวิศวกรรมคอมพิวเตอร์มุ่งผลิตวิศวกรที่มีความรู้ความสามารถด้านการออกแบบและพัฒนาระบบคอมพิวเตอร์ทั้งฮาร์ดแวร์และซอฟต์แวร์ โดยเน้นการบูรณาการความรู้ทางวิศวกรรมศาสตร์กับเทคโนโลยีสารสนเทศ เพื่อแก้ปัญหาในภาคอุตสาหกรรมและสังคมได้อย่างมีประสิทธิภาพ",
+    "program_description_en": "The Computer Engineering program produces engineers with expertise in designing and developing computer systems in both hardware and software. The curriculum integrates engineering principles with information technology to solve industrial and societal problems.",
+    "plos": [
+      {
+        "plo_id": "CPE-PLO1",
+        "plo_number": 1,
+        "domain": "knowledge",
+        "text_th": "มีความรู้และความเข้าใจในหลักการพื้นฐานทางคณิตศาสตร์ วิทยาศาสตร์ และวิศวกรรมศาสตร์ที่จำเป็นสำหรับการออกแบบและพัฒนาระบบคอมพิวเตอร์ รวมถึงวงจรดิจิทัล สถาปัตยกรรมคอมพิวเตอร์ โครงสร้างข้อมูล และอัลกอริทึม",
+        "text_en": "Possess knowledge and understanding of fundamental principles in mathematics, science, and engineering necessary for designing and developing computer systems, including digital circuits, computer architecture, data structures, and algorithms.",
+        "skill_clusters": ["mathematics_computation", "hardware_design", "software_engineering", "algorithms_data_structures"],
+        "bloom_level": "comprehension",
+        "assessment_method": "การสอบข้อเขียนและการทดลองในห้องปฏิบัติการ"
+      },
+      {
+        "plo_id": "CPE-PLO2",
+        "plo_number": 2,
+        "domain": "skills",
+        "text_th": "สามารถวิเคราะห์และออกแบบระบบฮาร์ดแวร์และซอฟต์แวร์คอมพิวเตอร์ได้อย่างเป็นระบบ โดยประยุกต์ใช้ความรู้ทางวิศวกรรมในการพัฒนาโปรแกรมคอมพิวเตอร์ ระบบสมองกลฝังตัว ระบบเครือข่าย และระบบปฏิบัติการ ให้ตรงตามข้อกำหนดและมาตรฐานที่กำหนด",
+        "text_en": "Ability to systematically analyze and design computer hardware and software systems, applying engineering knowledge to develop computer programs, embedded systems, networks, and operating systems that meet specified requirements and standards.",
+        "skill_clusters": ["software_engineering", "embedded_systems", "networking", "systems_design"],
+        "bloom_level": "synthesis",
+        "assessment_method": "โครงงานและการนำเสนอ"
+      },
+      {
+        "plo_id": "CPE-PLO3",
+        "plo_number": 3,
+        "domain": "skills",
+        "text_th": "สามารถออกแบบและพัฒนาซอฟต์แวร์โดยใช้กระบวนการวิศวกรรมซอฟต์แวร์ที่เหมาะสม ทั้งการเขียนโปรแกรมเชิงวัตถุ การทดสอบซอฟต์แวร์ การจัดการเวอร์ชัน และการพัฒนาแบบ Agile เพื่อผลิตซอฟต์แวร์ที่มีคุณภาพ บำรุงรักษาได้ และปรับขนาดได้",
+        "text_en": "Ability to design and develop software using appropriate software engineering processes including object-oriented programming, software testing, version control, and Agile development methodologies to produce quality, maintainable, and scalable software.",
+        "skill_clusters": ["software_engineering", "programming", "testing_qa", "project_management"],
+        "bloom_level": "synthesis",
+        "assessment_method": "โครงงานพัฒนาซอฟต์แวร์และการทบทวนโค้ด"
+      },
+      {
+        "plo_id": "CPE-PLO4",
+        "plo_number": 4,
+        "domain": "skills",
+        "text_th": "สามารถประยุกต์ใช้ความรู้ด้านปัญญาประดิษฐ์ การเรียนรู้ของเครื่อง และการประมวลผลข้อมูลขนาดใหญ่ เพื่อออกแบบและพัฒนาระบบอัจฉริยะที่สามารถแก้ปัญหาเฉพาะทางในอุตสาหกรรมและสังคมได้อย่างมีประสิทธิภาพ",
+        "text_en": "Ability to apply knowledge of artificial intelligence, machine learning, and big data processing to design and develop intelligent systems that effectively solve specific problems in industry and society.",
+        "skill_clusters": ["machine_learning", "data_engineering", "programming", "systems_design"],
+        "bloom_level": "application",
+        "assessment_method": "โครงงานวิจัยและการนำเสนอผลงาน"
+      },
+      {
+        "plo_id": "CPE-PLO5",
+        "plo_number": 5,
+        "domain": "ethics",
+        "text_th": "มีจริยธรรมและความรับผิดชอบทางวิชาชีพวิศวกรรม เข้าใจผลกระทบของเทคโนโลยีคอมพิวเตอร์ต่อสังคม สิ่งแวดล้อม และบุคคล รวมถึงประเด็นด้านความมั่นคงปลอดภัยทางไซเบอร์ ความเป็นส่วนตัวของข้อมูล และจริยธรรมของปัญญาประดิษฐ์",
+        "text_en": "Possess engineering professional ethics and responsibility, understanding the impact of computer technology on society, environment, and individuals, including cybersecurity, data privacy, and AI ethics.",
+        "skill_clusters": ["professional_ethics", "cybersecurity", "critical_thinking"],
+        "bloom_level": "evaluation",
+        "assessment_method": "การอภิปรายในชั้นเรียนและรายงานกรณีศึกษา"
+      },
+      {
+        "plo_id": "CPE-PLO6",
+        "plo_number": 6,
+        "domain": "communication",
+        "text_th": "มีทักษะการสื่อสารและการทำงานเป็นทีมที่มีประสิทธิภาพ สามารถนำเสนอแนวคิดทางเทคนิคทั้งในรูปแบบเอกสาร การนำเสนอด้วยวาจา และสื่อดิจิทัล ทั้งในภาษาไทยและภาษาอังกฤษ ต่อผู้ฟังที่หลากหลายทั้งทางเทคนิคและไม่ใช่เทคนิค",
+        "text_en": "Possess effective communication and teamwork skills, able to present technical concepts in written, verbal, and digital formats in both Thai and English to diverse audiences, both technical and non-technical.",
+        "skill_clusters": ["communication", "teamwork", "technical_writing"],
+        "bloom_level": "synthesis",
+        "assessment_method": "การนำเสนองานและรายงานกลุ่ม"
+      },
+      {
+        "plo_id": "CPE-PLO7",
+        "plo_number": 7,
+        "domain": "lifelong_learning",
+        "text_th": "มีความสามารถในการเรียนรู้ตลอดชีวิตและปรับตัวต่อการเปลี่ยนแปลงทางเทคโนโลยี สามารถแสวงหาความรู้ใหม่ด้วยตนเอง ติดตามความก้าวหน้าในสาขาวิศวกรรมคอมพิวเตอร์ และประยุกต์ใช้ความรู้ใหม่ในการแก้ปัญหาทางวิชาชีพ",
+        "text_en": "Possess lifelong learning ability and adaptability to technological change, able to independently acquire new knowledge, follow advances in computer engineering, and apply new knowledge to solve professional problems.",
+        "skill_clusters": ["lifelong_learning", "adaptability", "research_skills"],
+        "bloom_level": "synthesis",
+        "assessment_method": "แฟ้มสะสมผลงานและการสะท้อนการเรียนรู้"
+      }
+    ],
+    "career_outcomes": ["software_developer", "systems_analyst", "data_engineer", "ai_ml_engineer", "embedded_systems_engineer"],
+    "tuition_per_semester_thb": 25000,
+    "total_credits": 140
+  },
+  {
+    "program_id": "CS",
+    "program_name_th": "วิทยาการคอมพิวเตอร์",
+    "program_name_en": "Computer Science",
+    "degree": "วิทยาศาสตรบัณฑิต",
+    "faculty_th": "คณะวิทยาศาสตร์",
+    "faculty_en": "Faculty of Science",
+    "university": "มหาวิทยาลัยเกษตรศาสตร์",
+    "duration_years": 4,
+    "language": "ภาษาไทย",
+    "academic_year": "2566",
+    "program_description_th": "หลักสูตรวิทยาการคอมพิวเตอร์มุ่งเน้นการศึกษาทฤษฎีและรากฐานทางวิทยาการคอมพิวเตอร์อย่างลึกซึ้ง ครอบคลุมการออกแบบอัลกอริทึม ทฤษฎีการคำนวณ ปัญญาประดิษฐ์ การจัดการฐานข้อมูล และการพัฒนาซอฟต์แวร์ โดยเตรียมบัณฑิตให้พร้อมสำหรับการทำงานด้านวิจัยและพัฒนาเทคโนโลยีขั้นสูง",
+    "program_description_en": "The Computer Science program emphasizes deep study of theoretical and foundational aspects of computing, covering algorithm design, theory of computation, artificial intelligence, database management, and software development, preparing graduates for research and advanced technology development.",
+    "plos": [
+      {
+        "plo_id": "CS-PLO1",
+        "plo_number": 1,
+        "domain": "knowledge",
+        "text_th": "มีความรู้และความเข้าใจอย่างลึกซึ้งในทฤษฎีพื้นฐานทางวิทยาการคอมพิวเตอร์ ได้แก่ ทฤษฎีการคำนวณ ความซับซ้อนของอัลกอริทึม คณิตศาสตร์ไม่ต่อเนื่อง ตรรกศาสตร์ทางคอมพิวเตอร์ และคณิตศาสตร์สำหรับการเรียนรู้ของเครื่อง",
+        "text_en": "Possess deep knowledge and understanding of fundamental computer science theory including theory of computation, algorithmic complexity, discrete mathematics, computer logic, and mathematics for machine learning.",
+        "skill_clusters": ["algorithms_data_structures", "mathematics_computation", "theoretical_cs", "machine_learning"],
+        "bloom_level": "comprehension",
+        "assessment_method": "การสอบข้อเขียนและการแก้ปัญหา"
+      },
+      {
+        "plo_id": "CS-PLO2",
+        "plo_number": 2,
+        "domain": "skills",
+        "text_th": "สามารถออกแบบและวิเคราะห์อัลกอริทึมที่มีประสิทธิภาพ เลือกโครงสร้างข้อมูลที่เหมาะสมกับปัญหา และพิสูจน์ความถูกต้องของโปรแกรมได้ โดยพิจารณาทั้งความซับซ้อนด้านเวลาและพื้นที่หน่วยความจำ",
+        "text_en": "Ability to design and analyze efficient algorithms, select appropriate data structures for given problems, and prove program correctness considering both time and space complexity.",
+        "skill_clusters": ["algorithms_data_structures", "mathematics_computation", "programming", "critical_thinking"],
+        "bloom_level": "analysis",
+        "assessment_method": "การแก้ปัญหาและการพิสูจน์ทางคณิตศาสตร์"
+      },
+      {
+        "plo_id": "CS-PLO3",
+        "plo_number": 3,
+        "domain": "skills",
+        "text_th": "สามารถออกแบบ พัฒนา และประเมินระบบปัญญาประดิษฐ์และการเรียนรู้ของเครื่องได้ ครอบคลุมการเลือกโมเดล การปรับแต่งค่าพารามิเตอร์ การประเมินประสิทธิภาพ และการอธิบายผลลัพธ์ของโมเดลได้อย่างถูกต้อง",
+        "text_en": "Ability to design, develop, and evaluate artificial intelligence and machine learning systems, including model selection, hyperparameter tuning, performance evaluation, and accurately explaining model outputs.",
+        "skill_clusters": ["machine_learning", "data_engineering", "programming", "research_skills"],
+        "bloom_level": "evaluation",
+        "assessment_method": "โครงงานวิจัยและการนำเสนอ"
+      },
+      {
+        "plo_id": "CS-PLO4",
+        "plo_number": 4,
+        "domain": "skills",
+        "text_th": "สามารถออกแบบและจัดการระบบฐานข้อมูลทั้งแบบ Relational และ NoSQL รวมถึงการประมวลผลข้อมูลขนาดใหญ่ด้วยเทคโนโลยี Big Data การออกแบบ Data Pipeline และการสร้าง Data Warehouse เพื่อรองรับการวิเคราะห์ข้อมูลเชิงธุรกิจ",
+        "text_en": "Ability to design and manage both Relational and NoSQL database systems, including big data processing technologies, data pipeline design, and data warehouse creation to support business data analytics.",
+        "skill_clusters": ["data_engineering", "database_management", "programming", "systems_design"],
+        "bloom_level": "synthesis",
+        "assessment_method": "โครงงานฐานข้อมูลและรายงาน"
+      },
+      {
+        "plo_id": "CS-PLO5",
+        "plo_number": 5,
+        "domain": "skills",
+        "text_th": "สามารถดำเนินการวิจัยทางวิทยาการคอมพิวเตอร์ได้อย่างเป็นระบบ ตั้งแต่การทบทวนวรรณกรรม การตั้งสมมติฐาน การออกแบบการทดลอง การเก็บและวิเคราะห์ข้อมูล จนถึงการสื่อสารผลการวิจัยในรูปแบบรายงานวิชาการและการนำเสนอ",
+        "text_en": "Ability to conduct systematic computer science research from literature review, hypothesis formulation, experimental design, data collection and analysis, to communicating research findings in academic reports and presentations.",
+        "skill_clusters": ["research_skills", "critical_thinking", "technical_writing", "data_engineering"],
+        "bloom_level": "synthesis",
+        "assessment_method": "โครงงานวิจัยและการตีพิมพ์"
+      },
+      {
+        "plo_id": "CS-PLO6",
+        "plo_number": 6,
+        "domain": "ethics",
+        "text_th": "ตระหนักถึงจริยธรรมในการวิจัยและพัฒนาซอฟต์แวร์ เข้าใจประเด็นทรัพย์สินทางปัญญา ลิขสิทธิ์ซอฟต์แวร์ ความเป็นส่วนตัวของข้อมูลตามกฎหมาย PDPA และผลกระทบทางสังคมของเทคโนโลยีปัญญาประดิษฐ์",
+        "text_en": "Awareness of ethics in research and software development, understanding intellectual property, software copyright, data privacy under PDPA law, and the societal impact of artificial intelligence technology.",
+        "skill_clusters": ["professional_ethics", "critical_thinking", "communication"],
+        "bloom_level": "evaluation",
+        "assessment_method": "การอภิปรายและรายงานเชิงวิเคราะห์"
+      },
+      {
+        "plo_id": "CS-PLO7",
+        "plo_number": 7,
+        "domain": "lifelong_learning",
+        "text_th": "มีทักษะการเรียนรู้อิสระ สามารถศึกษาเทคโนโลยีและกรอบการทำงานใหม่ๆ ด้วยตนเองได้อย่างรวดเร็ว สามารถมีส่วนร่วมในชุมชนโอเพนซอร์ส และพัฒนาทักษะวิชาชีพผ่านการเรียนรู้ออนไลน์และการรับรองวิชาชีพ",
+        "text_en": "Possess independent learning skills, able to quickly self-study new technologies and frameworks, participate in open-source communities, and develop professional skills through online learning and professional certifications.",
+        "skill_clusters": ["lifelong_learning", "adaptability", "research_skills", "communication"],
+        "bloom_level": "synthesis",
+        "assessment_method": "แฟ้มสะสมผลงานและการมีส่วนร่วมในโครงการโอเพนซอร์ส"
+      }
+    ],
+    "career_outcomes": ["software_developer", "data_engineer", "ai_ml_engineer", "ux_designer", "systems_analyst"],
+    "tuition_per_semester_thb": 22000,
+    "total_credits": 138
+  },
+  {
+    "program_id": "SKE",
+    "program_name_th": "วิศวกรรมซอฟต์แวร์และความรู้",
+    "program_name_en": "Software and Knowledge Engineering",
+    "degree": "วิศวกรรมศาสตรบัณฑิต",
+    "faculty_th": "คณะวิศวกรรมศาสตร์",
+    "faculty_en": "Faculty of Engineering",
+    "university": "มหาวิทยาลัยเกษตรศาสตร์",
+    "duration_years": 4,
+    "language": "ภาษาไทย",
+    "academic_year": "2566",
+    "program_description_th": "หลักสูตรวิศวกรรมซอฟต์แวร์และความรู้มุ่งผลิตวิศวกรที่มีความสามารถในการพัฒนาซอฟต์แวร์คุณภาพสูงระดับองค์กร โดยเน้นกระบวนการวิศวกรรมซอฟต์แวร์ การจัดการโครงการ การออกแบบ UI/UX และการจัดการความรู้ เพื่อตอบสนองความต้องการของอุตสาหกรรมซอฟต์แวร์สมัยใหม่",
+    "program_description_en": "The Software and Knowledge Engineering program produces engineers capable of developing enterprise-grade, high-quality software, emphasizing software engineering processes, project management, UI/UX design, and knowledge management to meet the demands of the modern software industry.",
+    "plos": [
+      {
+        "plo_id": "SKE-PLO1",
+        "plo_number": 1,
+        "domain": "knowledge",
+        "text_th": "มีความรู้ความเข้าใจในกระบวนการวิศวกรรมซอฟต์แวร์อย่างครบถ้วน ครอบคลุมวงจรชีวิตการพัฒนาซอฟต์แวร์ การรวบรวมและวิเคราะห์ความต้องการ การออกแบบสถาปัตยกรรมซอฟต์แวร์ รูปแบบการออกแบบ และหลักการ SOLID",
+        "text_en": "Comprehensive knowledge of software engineering processes covering the software development lifecycle, requirements gathering and analysis, software architecture design, design patterns, and SOLID principles.",
+        "skill_clusters": ["software_engineering", "systems_design", "programming", "project_management"],
+        "bloom_level": "comprehension",
+        "assessment_method": "การสอบและการออกแบบสถาปัตยกรรม"
+      },
+      {
+        "plo_id": "SKE-PLO2",
+        "plo_number": 2,
+        "domain": "skills",
+        "text_th": "สามารถวางแผน บริหาร และส่งมอบโครงการพัฒนาซอฟต์แวร์ได้ตามกำหนดเวลาและงบประมาณ โดยใช้วิธีการพัฒนาแบบ Agile/Scrum มีทักษะในการประมาณการงาน การจัดการความเสี่ยง และการติดตามความก้าวหน้าของโครงการ",
+        "text_en": "Ability to plan, manage, and deliver software development projects on time and within budget using Agile/Scrum methodologies, with skills in task estimation, risk management, and project progress tracking.",
+        "skill_clusters": ["project_management", "software_engineering", "teamwork", "communication"],
+        "bloom_level": "application",
+        "assessment_method": "การจำลองโครงการและการนำเสนอ"
+      },
+      {
+        "plo_id": "SKE-PLO3",
+        "plo_number": 3,
+        "domain": "skills",
+        "text_th": "สามารถออกแบบและพัฒนาส่วนติดต่อผู้ใช้และประสบการณ์ผู้ใช้ได้อย่างมีประสิทธิภาพ โดยใช้หลักการออกแบบ Human-Centered Design การทำ User Research การสร้าง Prototype การทดสอบความสามารถในการใช้งาน และการออกแบบตามมาตรฐาน WCAG สำหรับผู้ใช้ที่หลากหลาย",
+        "text_en": "Ability to effectively design and develop user interfaces and user experiences using Human-Centered Design principles, including user research, prototyping, usability testing, and designing according to WCAG standards for diverse users.",
+        "skill_clusters": ["ux_design", "software_engineering", "communication", "critical_thinking"],
+        "bloom_level": "synthesis",
+        "assessment_method": "โครงงานออกแบบ UX และการทดสอบผู้ใช้"
+      },
+      {
+        "plo_id": "SKE-PLO4",
+        "plo_number": 4,
+        "domain": "skills",
+        "text_th": "สามารถออกแบบ พัฒนา และทดสอบซอฟต์แวร์คุณภาพสูงโดยใช้เทคนิคการทดสอบซอฟต์แวร์ที่หลากหลาย ได้แก่ Unit Testing, Integration Testing, System Testing และ Acceptance Testing รวมถึงการพัฒนาแบบ Test-Driven Development และการนำ CI/CD Pipeline มาใช้",
+        "text_en": "Ability to design, develop, and test high-quality software using various testing techniques including Unit Testing, Integration Testing, System Testing, and Acceptance Testing, as well as Test-Driven Development and CI/CD Pipeline implementation.",
+        "skill_clusters": ["testing_qa", "software_engineering", "programming", "systems_design"],
+        "bloom_level": "synthesis",
+        "assessment_method": "โครงงานพัฒนาซอฟต์แวร์และรายงานการทดสอบ"
+      },
+      {
+        "plo_id": "SKE-PLO5",
+        "plo_number": 5,
+        "domain": "skills",
+        "text_th": "สามารถออกแบบและพัฒนาระบบซอฟต์แวร์บนสถาปัตยกรรม Cloud ได้ ครอบคลุมการออกแบบ Microservices การใช้งาน Container และ Orchestration การออกแบบ RESTful API และ GraphQL รวมถึงการรักษาความมั่นคงปลอดภัยของซอฟต์แวร์ตาม OWASP",
+        "text_en": "Ability to design and develop software systems on cloud architecture, covering Microservices design, Container usage and Orchestration, RESTful API and GraphQL design, and software security according to OWASP standards.",
+        "skill_clusters": ["software_engineering", "networking", "cybersecurity", "systems_design"],
+        "bloom_level": "synthesis",
+        "assessment_method": "โครงงาน Cloud-native และการนำเสนอ"
+      },
+      {
+        "plo_id": "SKE-PLO6",
+        "plo_number": 6,
+        "domain": "knowledge",
+        "text_th": "มีความรู้ด้านการจัดการความรู้และระบบผู้เชี่ยวชาญ สามารถออกแบบและพัฒนาระบบ Knowledge Base การใช้งาน Ontology การพัฒนา Chatbot และระบบแนะนำ รวมถึงการประยุกต์ใช้ NLP เพื่อการประมวลผลภาษาธรรมชาติ",
+        "text_en": "Knowledge in knowledge management and expert systems, able to design and develop Knowledge Base systems, Ontology usage, Chatbot development, and recommendation systems, including applying NLP for natural language processing.",
+        "skill_clusters": ["machine_learning", "software_engineering", "data_engineering", "algorithms_data_structures"],
+        "bloom_level": "application",
+        "assessment_method": "โครงงานระบบความรู้และการนำเสนอ"
+      },
+      {
+        "plo_id": "SKE-PLO7",
+        "plo_number": 7,
+        "domain": "ethics",
+        "text_th": "มีความรับผิดชอบทางวิชาชีพ เข้าใจบทบาทของวิศวกรซอฟต์แวร์ในการสร้างผลิตภัณฑ์ที่มีคุณภาพและปลอดภัย ตระหนักถึงผลกระทบของซอฟต์แวร์ต่อสังคมและผู้ใช้ปลายทาง รวมถึงการปฏิบัติตามจรรยาบรรณวิชาชีพตามมาตรฐาน ACM/IEEE",
+        "text_en": "Professional responsibility, understanding the role of software engineers in creating quality and safe products, awareness of software impact on society and end users, and adherence to professional ethics according to ACM/IEEE standards.",
+        "skill_clusters": ["professional_ethics", "communication", "critical_thinking"],
+        "bloom_level": "evaluation",
+        "assessment_method": "การอภิปรายกรณีศึกษาและการสะท้อนการเรียนรู้"
+      },
+      {
+        "plo_id": "SKE-PLO8",
+        "plo_number": 8,
+        "domain": "communication",
+        "text_th": "สามารถสื่อสารและทำงานร่วมกับทีมพัฒนาและผู้มีส่วนได้ส่วนเสียได้อย่างมีประสิทธิภาพ มีทักษะในการเขียนเอกสารทางเทคนิค การนำเสนอ Demo ผลิตภัณฑ์ การเจรจาต่อรองความต้องการ และการรายงานความก้าวหน้าต่อผู้บริหาร",
+        "text_en": "Ability to communicate and collaborate effectively with development teams and stakeholders, with skills in technical documentation writing, product demo presentations, requirement negotiation, and progress reporting to management.",
+        "skill_clusters": ["communication", "teamwork", "technical_writing", "project_management"],
+        "bloom_level": "application",
+        "assessment_method": "การนำเสนองานและการประเมินโดยเพื่อน"
+      }
+    ],
+    "career_outcomes": ["software_developer", "ux_designer", "systems_analyst", "ai_ml_engineer", "data_engineer"],
+    "tuition_per_semester_thb": 25000,
+    "total_credits": 144
+  }
+]

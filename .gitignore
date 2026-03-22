@@ -1,0 +1,32 @@
+# Environment — NEVER commit your API key
+.env
+
+# Generated databases — rebuild with: python ingest.py
+db/
+
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.egg-info/
+
+# Node
+node_modules/
+.next/
+out/
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

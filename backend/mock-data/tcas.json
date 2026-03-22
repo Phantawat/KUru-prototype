@@ -1,0 +1,451 @@
+{
+  "metadata": {
+    "academic_year": "2568",
+    "university": "มหาวิทยาลัยเกษตรศาสตร์",
+    "university_en": "Kasetsart University",
+    "source": "ข้อมูลจำลองอ้างอิงจากระบบ TCAS68",
+    "last_updated": "2024-12-01",
+    "tcas_system_overview_th": "TCAS (Thai University Central Admission System) คือระบบการคัดเลือกบุคคลเข้าศึกษาในสถาบันอุดมศึกษา แบ่งออกเป็น 4 รอบ แต่ละรอบมีวิธีการและเกณฑ์การคัดเลือกที่แตกต่างกัน ผู้สมัครสามารถสมัครได้หลายรอบแต่ไม่สามารถยืนยันสิทธิ์ได้มากกว่า 1 แห่งในแต่ละรอบ"
+  },
+  "programs": [
+    {
+      "program_id": "CPE",
+      "program_name_th": "วิศวกรรมคอมพิวเตอร์",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "admission_rounds": [
+        {
+          "round": 1,
+          "round_name_th": "รอบที่ 1 Portfolio",
+          "round_description_th": "การรับด้วย Portfolio คือการคัดเลือกนักเรียนที่มีความสามารถพิเศษหรือผลงานโดดเด่นด้านวิทยาศาสตร์ คณิตศาสตร์ หรือเทคโนโลยี โดยไม่ใช้คะแนนสอบกลาง",
+          "quota": 30,
+          "open_date": "2024-11-01",
+          "close_date": "2024-12-20",
+          "announcement_date": "2025-02-05",
+          "eligibility_th": "นักเรียนชั้น ม.6 หรือเทียบเท่า มีผลการเรียนเฉลี่ย (GPAX) ไม่ต่ำกว่า 3.00",
+          "required_documents_th": [
+            "Portfolio แสดงผลงานด้านวิศวกรรมคอมพิวเตอร์หรือโปรแกรมมิ่ง (ไม่เกิน 20 หน้า)",
+            "ใบระเบียนการศึกษา (ปพ.1) ที่มีผลการเรียน 5 ภาคเรียน",
+            "จดหมายแนะนำจากอาจารย์ที่ปรึกษา 1 ฉบับ",
+            "หลักฐานการเข้าร่วมกิจกรรม/การแข่งขันที่เกี่ยวข้อง (ถ้ามี)"
+          ],
+          "selection_criteria_th": {
+            "portfolio_score": "60%",
+            "interview_score": "30%",
+            "academic_record_gpax": "10%",
+            "detail": "คณะกรรมการพิจารณา Portfolio และสัมภาษณ์ โดยเน้นความสนใจ ความสามารถ และ Passion ด้านวิศวกรรมคอมพิวเตอร์"
+          },
+          "preferred_portfolio_content_th": [
+            "โปรเจกต์โปรแกรมมิ่งหรือแอปพลิเคชันที่พัฒนาเอง พร้อม Source Code บน GitHub",
+            "ผลงานการแข่งขันโปรแกรมมิ่ง เช่น TOI, IOI, ACM-ICPC",
+            "โปรเจกต์ Electronics หรือ Robotics",
+            "การเข้าร่วม Hackathon หรือ Coding Bootcamp",
+            "บทความหรือการวิจัยเบื้องต้นด้านคอมพิวเตอร์"
+          ],
+          "minimum_gpax": 3.00,
+          "notes_th": "ผู้ผ่านการคัดเลือกต้องยืนยันสิทธิ์ในระบบ TCAS ภายในวันที่กำหนด หากไม่ยืนยันสิทธิ์จะถือว่าสละสิทธิ์"
+        },
+        {
+          "round": 2,
+          "round_name_th": "รอบที่ 2 Quota",
+          "round_description_th": "การรับโควตาภาคกลางและทั่วประเทศ สำหรับนักเรียนทั่วไปที่มีคุณสมบัติตามเกณฑ์ที่กำหนด โดยใช้คะแนนสอบ TGAT และ TPAT",
+          "quota": 60,
+          "open_date": "2025-02-07",
+          "close_date": "2025-02-21",
+          "announcement_date": "2025-03-15",
+          "eligibility_th": "นักเรียนชั้น ม.6 หรือเทียบเท่า มีผลการเรียนเฉลี่ย (GPAX) ไม่ต่ำกว่า 2.75",
+          "required_scores": {
+            "TGAT": {
+              "full_name_th": "Thai General Aptitude Test",
+              "components": {
+                "TGAT1_communication": {"name_th": "การสื่อสารภาษาอังกฤษ", "min_score": 30, "max_score": 100, "weight": "30%"},
+                "TGAT2_critical_thinking": {"name_th": "การคิดอย่างมีเหตุผล", "min_score": 35, "max_score": 100, "weight": "40%"},
+                "TGAT3_future_skills": {"name_th": "สมรรถนะการทำงานในอนาคต", "min_score": 25, "max_score": 100, "weight": "30%"}
+              }
+            },
+            "TPAT3": {
+              "full_name_th": "Thai Professional Aptitude Test 3 - วิทยาศาสตร์ เทคโนโลยี วิศวกรรมศาสตร์",
+              "min_score": 40,
+              "max_score": 100,
+              "weight_in_selection": "40%"
+            }
+          },
+          "selection_criteria_th": {
+            "GPAX": "10%",
+            "TGAT_total": "30%",
+            "TPAT3": "40%",
+            "interview": "20%",
+            "detail": "คะแนน TGAT คำนวณจากค่าเฉลี่ยถ่วงน้ำหนักของทั้ง 3 ส่วน"
+          },
+          "minimum_gpax": 2.75,
+          "interview_topics_th": [
+            "ความสนใจและแรงบันดาลใจในการเรียนวิศวกรรมคอมพิวเตอร์",
+            "ความรู้พื้นฐานด้านคอมพิวเตอร์และโปรแกรมมิ่ง",
+            "แผนการเรียนและเป้าหมายอาชีพ"
+          ],
+          "notes_th": "คะแนน TPAT3 เน้นทักษะการวิเคราะห์เชิงวิทยาศาสตร์และคณิตศาสตร์ ควรฝึกทำโจทย์ย้อนหลัง 3-5 ปี"
+        },
+        {
+          "round": 3,
+          "round_name_th": "รอบที่ 3 Admission",
+          "round_description_th": "การรับด้วยคะแนนสอบกลาง A-Level เป็นรอบที่รับนักเรียนส่วนใหญ่ ใช้คะแนนสอบ A-Level วิชาคณิตศาสตร์และวิทยาศาสตร์",
+          "quota": 80,
+          "open_date": "2025-05-01",
+          "close_date": "2025-05-10",
+          "announcement_date": "2025-05-27",
+          "eligibility_th": "ผู้สำเร็จการศึกษาชั้น ม.6 หรือเทียบเท่า ไม่จำกัด GPAX",
+          "required_scores": {
+            "A_Level_Math1": {
+              "subject_th": "คณิตศาสตร์ประยุกต์ 1 (พีชคณิตและแคลคูลัส)",
+              "min_score": 35,
+              "weight": "40%"
+            },
+            "A_Level_Physics": {
+              "subject_th": "ฟิสิกส์",
+              "min_score": 25,
+              "weight": "30%"
+            },
+            "TGAT": {
+              "weight": "30%",
+              "detail": "คะแนน TGAT รวมทั้ง 3 ส่วน"
+            }
+          },
+          "selection_criteria_th": {
+            "A_Level_Math1": "40%",
+            "A_Level_Physics": "30%",
+            "TGAT": "30%",
+            "detail": "ไม่มีการสัมภาษณ์ในรอบนี้ คัดเลือกจากคะแนนรวมตามสูตรที่กำหนด"
+          },
+          "estimated_min_scores_th": {
+            "note": "คะแนนขั้นต่ำโดยประมาณจากข้อมูลย้อนหลัง อาจเปลี่ยนแปลงตามจำนวนผู้สมัคร",
+            "A_Level_Math1": "ประมาณ 45-55 คะแนน",
+            "A_Level_Physics": "ประมาณ 30-40 คะแนน",
+            "score_total_estimate": "ประมาณ 38-45 คะแนน (คะแนนถ่วงน้ำหนักรวม)"
+          },
+          "notes_th": "รอบนี้มีการแข่งขันสูงที่สุด ผู้สมัครมาจากทั่วประเทศ แนะนำให้เตรียมตัวสอบ A-Level อย่างจริงจัง"
+        },
+        {
+          "round": 4,
+          "round_name_th": "รอบที่ 4 Direct Admission",
+          "round_description_th": "การรับตรงอิสระ เป็นรอบสุดท้ายสำหรับผู้ที่ยังไม่ได้รับการคัดเลือกหรือสละสิทธิ์จากรอบก่อนหน้า",
+          "quota": 15,
+          "open_date": "2025-06-05",
+          "close_date": "2025-06-10",
+          "announcement_date": "2025-06-13",
+          "eligibility_th": "ผู้ที่ไม่ได้รับการคัดเลือกหรือสละสิทธิ์จากรอบ 1-3 และมีคุณสมบัติตามเกณฑ์",
+          "selection_criteria_th": {
+            "method": "คะแนนสอบกลางที่มีอยู่ (TGAT/A-Level) หรือสอบตรงของมหาวิทยาลัย",
+            "detail": "ใช้คะแนนเดิมจากรอบ 3 หากมี หรือดำเนินการสอบตรงในกรณีที่มีที่นั่งว่างเพียงพอ"
+          },
+          "notes_th": "โควตารอบนี้น้อยมาก การแข่งขันสูง แนะนำให้เป็นทางเลือกสุดท้าย"
+        }
+      ],
+      "total_quota": 185,
+      "tuition_fee_th": "ประมาณ 25,000 บาท/ภาคการศึกษา (ค่าเล่าเรียนและค่าบำรุงการศึกษา)",
+      "scholarship_info_th": "มีทุนเรียนดีสำหรับผู้ที่มีผลการเรียนดีเยี่ยม ทุนขาดแคลนทุนทรัพย์ และทุนจากภาคเอกชน เช่น ทุน KBTG, SCB"
+    },
+    {
+      "program_id": "CS",
+      "program_name_th": "วิทยาการคอมพิวเตอร์",
+      "faculty_th": "คณะวิทยาศาสตร์",
+      "admission_rounds": [
+        {
+          "round": 1,
+          "round_name_th": "รอบที่ 1 Portfolio",
+          "round_description_th": "การรับด้วย Portfolio สำหรับผู้มีความสามารถพิเศษด้านวิทยาศาสตร์คอมพิวเตอร์ คณิตศาสตร์ หรือการเขียนโปรแกรม",
+          "quota": 25,
+          "open_date": "2024-11-01",
+          "close_date": "2024-12-20",
+          "announcement_date": "2025-02-05",
+          "eligibility_th": "นักเรียนชั้น ม.6 หรือเทียบเท่า มีผลการเรียนเฉลี่ย (GPAX) ไม่ต่ำกว่า 3.00",
+          "required_documents_th": [
+            "Portfolio แสดงผลงานด้านคอมพิวเตอร์หรือคณิตศาสตร์ (ไม่เกิน 20 หน้า)",
+            "ใบระเบียนการศึกษา (ปพ.1) ที่มีผลการเรียน 5 ภาคเรียน",
+            "จดหมายแนะนำจากอาจารย์ 1 ฉบับ",
+            "รางวัลหรือประกาศนียบัตรที่เกี่ยวข้อง (ถ้ามี)"
+          ],
+          "selection_criteria_th": {
+            "portfolio_score": "60%",
+            "interview_score": "30%",
+            "academic_record_gpax": "10%",
+            "detail": "เน้นความลึกในความรู้ทางคณิตศาสตร์และความสามารถในการแก้ปัญหาเชิงคิดวิเคราะห์"
+          },
+          "preferred_portfolio_content_th": [
+            "ผลงานการแข่งขันคณิตศาสตร์ เช่น สมาคมคณิตศาสตร์แห่งประเทศไทย, IMO",
+            "โปรเจกต์โปรแกรมมิ่งหรือ Research เบื้องต้น",
+            "ผลงาน Data Science หรือ Machine Learning (Kaggle, etc.)",
+            "การเข้าร่วม Math/CS olympiad"
+          ],
+          "minimum_gpax": 3.00,
+          "notes_th": "หลักสูตรนี้เน้นทฤษฎีและวิจัย Portfolio ที่แสดงถึงความสนใจในงานวิชาการจะได้รับการพิจารณาเป็นพิเศษ"
+        },
+        {
+          "round": 2,
+          "round_name_th": "รอบที่ 2 Quota",
+          "round_description_th": "การรับโควตาสำหรับนักเรียนที่มีคุณสมบัติตามเกณฑ์ ใช้คะแนน TGAT และ TPAT",
+          "quota": 50,
+          "open_date": "2025-02-07",
+          "close_date": "2025-02-21",
+          "announcement_date": "2025-03-15",
+          "eligibility_th": "นักเรียนชั้น ม.6 หรือเทียบเท่า มีผลการเรียนเฉลี่ย (GPAX) ไม่ต่ำกว่า 2.75",
+          "required_scores": {
+            "TGAT": {
+              "full_name_th": "Thai General Aptitude Test",
+              "components": {
+                "TGAT1_communication": {"min_score": 25, "weight": "20%"},
+                "TGAT2_critical_thinking": {"min_score": 40, "weight": "50%"},
+                "TGAT3_future_skills": {"min_score": 25, "weight": "30%"}
+              },
+              "note_th": "เน้น TGAT2 การคิดอย่างมีเหตุผล เพราะสัมพันธ์กับทักษะทางคอมพิวเตอร์วิทยา"
+            },
+            "TPAT3": {
+              "full_name_th": "Thai Professional Aptitude Test 3",
+              "min_score": 40,
+              "weight_in_selection": "45%"
+            }
+          },
+          "selection_criteria_th": {
+            "GPAX": "10%",
+            "TGAT_total": "25%",
+            "TPAT3": "45%",
+            "interview": "20%"
+          },
+          "minimum_gpax": 2.75,
+          "notes_th": "หลักสูตรนี้ให้น้ำหนัก TPAT3 สูงกว่าโปรแกรมอื่น เนื่องจากต้องการนักศึกษาที่มีพื้นฐานวิทยาศาสตร์แข็งแกร่ง"
+        },
+        {
+          "round": 3,
+          "round_name_th": "รอบที่ 3 Admission",
+          "round_description_th": "การรับด้วยคะแนนสอบ A-Level เน้นคณิตศาสตร์สูง",
+          "quota": 70,
+          "open_date": "2025-05-01",
+          "close_date": "2025-05-10",
+          "announcement_date": "2025-05-27",
+          "eligibility_th": "ผู้สำเร็จการศึกษาชั้น ม.6 หรือเทียบเท่า ไม่จำกัด GPAX",
+          "required_scores": {
+            "A_Level_Math1": {
+              "subject_th": "คณิตศาสตร์ประยุกต์ 1",
+              "min_score": 40,
+              "weight": "50%"
+            },
+            "A_Level_Math2": {
+              "subject_th": "คณิตศาสตร์ประยุกต์ 2 (สถิติและความน่าจะเป็น)",
+              "min_score": 30,
+              "weight": "20%"
+            },
+            "TGAT": {
+              "weight": "30%"
+            }
+          },
+          "selection_criteria_th": {
+            "A_Level_Math1": "50%",
+            "A_Level_Math2": "20%",
+            "TGAT": "30%",
+            "detail": "หลักสูตรนี้ให้น้ำหนักคณิตศาสตร์สูงสุดในบรรดาโปรแกรมคอมพิวเตอร์ของ มก."
+          },
+          "estimated_min_scores_th": {
+            "A_Level_Math1": "ประมาณ 50-60 คะแนน",
+            "A_Level_Math2": "ประมาณ 35-45 คะแนน",
+            "score_total_estimate": "ประมาณ 40-50 คะแนน (คะแนนถ่วงน้ำหนักรวม)"
+          },
+          "notes_th": "คณิตศาสตร์เป็นรากฐานสำคัญของ CS ผู้สมัครควรมีคะแนน A-Level คณิตศาสตร์สูง"
+        },
+        {
+          "round": 4,
+          "round_name_th": "รอบที่ 4 Direct Admission",
+          "round_description_th": "การรับตรงอิสระรอบสุดท้าย",
+          "quota": 10,
+          "open_date": "2025-06-05",
+          "close_date": "2025-06-10",
+          "announcement_date": "2025-06-13",
+          "eligibility_th": "ผู้ที่ไม่ได้รับการคัดเลือกหรือสละสิทธิ์จากรอบ 1-3",
+          "selection_criteria_th": {
+            "method": "คะแนนสอบกลางที่มีอยู่",
+            "detail": "ใช้คะแนนเดิมจากรอบ 3 เป็นหลัก"
+          },
+          "notes_th": "โควตาน้อยมาก ควรวางแผนให้ดีตั้งแต่รอบแรก"
+        }
+      ],
+      "total_quota": 155,
+      "tuition_fee_th": "ประมาณ 22,000 บาท/ภาคการศึกษา",
+      "scholarship_info_th": "มีทุนสำหรับนักศึกษาที่มีผลการเรียนดีและทุนวิจัยสำหรับผู้สนใจทำงานวิจัย"
+    },
+    {
+      "program_id": "SKE",
+      "program_name_th": "วิศวกรรมซอฟต์แวร์และความรู้",
+      "faculty_th": "คณะวิศวกรรมศาสตร์",
+      "admission_rounds": [
+        {
+          "round": 1,
+          "round_name_th": "รอบที่ 1 Portfolio",
+          "round_description_th": "การรับด้วย Portfolio เน้นผู้มีทักษะด้านการพัฒนาซอฟต์แวร์หรือการออกแบบ",
+          "quota": 20,
+          "open_date": "2024-11-01",
+          "close_date": "2024-12-20",
+          "announcement_date": "2025-02-05",
+          "eligibility_th": "นักเรียนชั้น ม.6 หรือเทียบเท่า มีผลการเรียนเฉลี่ย (GPAX) ไม่ต่ำกว่า 2.75",
+          "required_documents_th": [
+            "Portfolio แสดงผลงานด้านซอฟต์แวร์หรือการออกแบบ UI/UX (ไม่เกิน 20 หน้า)",
+            "ใบระเบียนการศึกษา (ปพ.1) ที่มีผลการเรียน 5 ภาคเรียน",
+            "จดหมายแนะนำจากอาจารย์ 1 ฉบับ"
+          ],
+          "selection_criteria_th": {
+            "portfolio_score": "65%",
+            "interview_score": "25%",
+            "academic_record_gpax": "10%",
+            "detail": "เน้นความสามารถในการสร้างผลิตภัณฑ์ซอฟต์แวร์จริงและทักษะการทำงานเป็นทีม"
+          },
+          "preferred_portfolio_content_th": [
+            "แอปพลิเคชันหรือเว็บไซต์ที่พัฒนาเองและมีผู้ใช้งานจริง",
+            "โปรเจกต์ที่แสดงทักษะ UX/UI Design",
+            "การมีส่วนร่วมใน Open Source Project",
+            "การเข้าร่วม Hackathon และผลงานที่ได้",
+            "การแข่งขันพัฒนาแอป เช่น KU App Challenge"
+          ],
+          "minimum_gpax": 2.75,
+          "notes_th": "SKE ให้ความสำคัญกับประสบการณ์จริงในการพัฒนาซอฟต์แวร์มากกว่าทฤษฎีล้วนๆ"
+        },
+        {
+          "round": 2,
+          "round_name_th": "รอบที่ 2 Quota",
+          "round_description_th": "การรับโควตาสำหรับนักเรียนทั่วไป",
+          "quota": 55,
+          "open_date": "2025-02-07",
+          "close_date": "2025-02-21",
+          "announcement_date": "2025-03-15",
+          "eligibility_th": "นักเรียนชั้น ม.6 หรือเทียบเท่า มีผลการเรียนเฉลี่ย (GPAX) ไม่ต่ำกว่า 2.50",
+          "required_scores": {
+            "TGAT": {
+              "full_name_th": "Thai General Aptitude Test",
+              "components": {
+                "TGAT1_communication": {"min_score": 30, "weight": "35%"},
+                "TGAT2_critical_thinking": {"min_score": 30, "weight": "35%"},
+                "TGAT3_future_skills": {"min_score": 30, "weight": "30%"}
+              }
+            },
+            "TPAT3": {
+              "min_score": 35,
+              "weight_in_selection": "35%"
+            }
+          },
+          "selection_criteria_th": {
+            "GPAX": "10%",
+            "TGAT_total": "35%",
+            "TPAT3": "35%",
+            "interview": "20%",
+            "detail": "SKE ให้ความสำคัญกับการสื่อสาร (TGAT1) มากกว่าโปรแกรมวิศวกรรมอื่น เพราะบัณฑิตต้องทำงานกับ Stakeholder"
+          },
+          "minimum_gpax": 2.50,
+          "interview_topics_th": [
+            "ประสบการณ์การพัฒนาซอฟต์แวร์หรือ Design",
+            "ทักษะการทำงานเป็นทีม",
+            "ความเข้าใจเกี่ยวกับ Software Development Process",
+            "เป้าหมายอาชีพในอุตสาหกรรม Software"
+          ],
+          "notes_th": "SKE เปิดกว้างกว่าโปรแกรมวิศวกรรมอื่น GPAX ขั้นต่ำต่ำกว่า แต่ต้องแสดงทักษะและความสนใจด้านซอฟต์แวร์อย่างชัดเจน"
+        },
+        {
+          "round": 3,
+          "round_name_th": "รอบที่ 3 Admission",
+          "round_description_th": "การรับด้วยคะแนน A-Level สำหรับผู้ต้องการเข้าเรียนสาขาซอฟต์แวร์",
+          "quota": 75,
+          "open_date": "2025-05-01",
+          "close_date": "2025-05-10",
+          "announcement_date": "2025-05-27",
+          "eligibility_th": "ผู้สำเร็จการศึกษาชั้น ม.6 หรือเทียบเท่า ไม่จำกัด GPAX",
+          "required_scores": {
+            "A_Level_Math1": {
+              "subject_th": "คณิตศาสตร์ประยุกต์ 1",
+              "min_score": 30,
+              "weight": "35%"
+            },
+            "A_Level_Physics_or_Chemistry": {
+              "subject_th": "ฟิสิกส์ หรือ เคมี (เลือก 1 วิชา)",
+              "min_score": 20,
+              "weight": "20%"
+            },
+            "TGAT": {
+              "weight": "45%",
+              "detail": "TGAT ทั้ง 3 ส่วน น้ำหนักสูงสุดในบรรดาโปรแกรมคอมพิวเตอร์ เพราะทักษะทั่วไปและการสื่อสารสำคัญมากในอาชีพ Software"
+            }
+          },
+          "selection_criteria_th": {
+            "A_Level_Math1": "35%",
+            "A_Level_Physics_or_Chemistry": "20%",
+            "TGAT": "45%",
+            "detail": "SKE ให้น้ำหนัก TGAT สูงกว่าโปรแกรมวิศวกรรมอื่น เพราะทักษะการคิดวิเคราะห์และสื่อสารสำคัญในอุตสาหกรรมซอฟต์แวร์"
+          },
+          "estimated_min_scores_th": {
+            "A_Level_Math1": "ประมาณ 35-45 คะแนน",
+            "score_total_estimate": "ประมาณ 33-40 คะแนน (คะแนนถ่วงน้ำหนักรวม)"
+          },
+          "notes_th": "SKE เข้าถึงได้ง่ายกว่า CPE เล็กน้อยในแง่คะแนน A-Level คณิตศาสตร์ แต่ต้องแข็งแกร่งด้าน TGAT"
+        },
+        {
+          "round": 4,
+          "round_name_th": "รอบที่ 4 Direct Admission",
+          "round_description_th": "การรับตรงอิสระรอบสุดท้าย",
+          "quota": 20,
+          "open_date": "2025-06-05",
+          "close_date": "2025-06-10",
+          "announcement_date": "2025-06-13",
+          "eligibility_th": "ผู้ที่ไม่ได้รับการคัดเลือกหรือสละสิทธิ์จากรอบ 1-3",
+          "selection_criteria_th": {
+            "method": "คะแนนสอบกลางที่มีอยู่",
+            "detail": "ใช้คะแนนเดิมจากรอบ 3 เป็นหลัก มีโอกาสมากกว่าโปรแกรมอื่นเพราะโควตารอบ 4 มากกว่า"
+          },
+          "notes_th": "SKE มีโควตารอบ 4 มากกว่า CPE และ CS เล็กน้อย"
+        }
+      ],
+      "total_quota": 170,
+      "tuition_fee_th": "ประมาณ 25,000 บาท/ภาคการศึกษา",
+      "scholarship_info_th": "มีทุนความร่วมมือกับบริษัทซอฟต์แวร์ชั้นนำ รวมถึงโครงการ Co-op ที่นักศึกษาได้รับค่าตอบแทนระหว่างฝึกงาน"
+    }
+  ],
+  "general_info": {
+    "exam_dates_2568": {
+      "TGAT": {
+        "date_th": "ธันวาคม 2567",
+        "registration_th": "ตุลาคม - พฤศจิกายน 2567",
+        "score_release_th": "มกราคม 2568"
+      },
+      "TPAT3": {
+        "date_th": "ธันวาคม 2567 - มกราคม 2568",
+        "registration_th": "ตุลาคม - พฤศจิกายน 2567",
+        "score_release_th": "มกราคม 2568"
+      },
+      "A_Level": {
+        "date_th": "มีนาคม - เมษายน 2568",
+        "registration_th": "มกราคม - กุมภาพันธ์ 2568",
+        "score_release_th": "เมษายน 2568"
+      }
+    },
+    "important_notes_th": [
+      "ผู้สมัครสามารถยืนยันสิทธิ์ได้เพียง 1 สาขาในแต่ละรอบ",
+      "การยืนยันสิทธิ์ในรอบ 1 และ 2 จะทำให้ไม่สามารถสมัครรอบ 3 ได้ในสาขาเดียวกัน",
+      "คะแนน TGAT และ A-Level ใช้ได้หลายรอบในปีเดียวกัน",
+      "ควรวางแผนสมัครหลายสาขาและหลายรอบเพื่อเพิ่มโอกาส",
+      "ดูข้อมูลล่าสุดได้ที่ mytcas.com และเว็บไซต์ของมหาวิทยาลัยโดยตรง"
+    ],
+    "preparation_tips_th": {
+      "round1_portfolio": [
+        "เริ่มสร้าง Portfolio ตั้งแต่ ม.4-ม.5 อย่ารอถึง ม.6",
+        "ทำโปรเจกต์จริงที่แก้ปัญหาจริง ไม่ใช่แค่ tutorial",
+        "ลงทะเบียน GitHub และ update โปรเจกต์สม่ำเสมอ",
+        "เข้าร่วม Hackathon อย่างน้อย 1-2 ครั้ง",
+        "เรียนรู้ภาษาโปรแกรมมิ่งอย่างน้อย 1 ภาษาให้เชี่ยวชาญ"
+      ],
+      "round2_quota": [
+        "ฝึกทำโจทย์ TGAT โดยเฉพาะ TGAT2 การคิดอย่างมีเหตุผล",
+        "ทบทวนวิทยาศาสตร์และคณิตศาสตร์สำหรับ TPAT3",
+        "ฝึกสัมภาษณ์กับอาจารย์หรือพี่นักศึกษา",
+        "เตรียมตอบคำถามว่าทำไมถึงเลือกสาขานี้"
+      ],
+      "round3_admission": [
+        "เน้นทบทวน A-Level คณิตศาสตร์ประยุกต์ 1 เป็นหลัก",
+        "ทำโจทย์ A-Level ย้อนหลัง 3-5 ปีอย่างน้อย",
+        "สำหรับ CPE และ CS ต้องแข็งแกร่งด้านคณิตศาสตร์โดยเฉพาะ",
+        "ดูสถิติคะแนนขั้นต่ำจากปีก่อนเพื่อประเมินโอกาส"
+      ]
+    }
+  }
+}
