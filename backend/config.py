@@ -18,7 +18,7 @@ load_dotenv(ENV_FILE)
 # ── Gemini ────────────────────────────────────────────────────────────────────
 GEMINI_API_KEY        = os.environ.get("GEMINI_API_KEY", "")
 EMBEDDING_MODEL       = "gemini-embedding-001"   # replaces text-embedding-004 (retired Jan 14 2026)
-GENERATION_MODEL      = "gemini-2.0-flash"
+GENERATION_MODEL      = "gemini-2.5-flash"
 EMBEDDING_TASK_TYPE   = "RETRIEVAL_DOCUMENT"   # for ingestion
 QUERY_TASK_TYPE       = "RETRIEVAL_QUERY"       # for query-time embed
 
